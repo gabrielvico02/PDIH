@@ -1,0 +1,17 @@
+[2025-05-01 17:20:02.939]: main - Starting PSMoveService v0.9-alpha 9.0.1 (protocol v0.9-alpha 9.0.0)
+[2025-05-01 17:20:02.949]: USBAsyncRequestManager::startup - Requested LibUSBApi
+[2025-05-01 17:20:02.950]: USBAsyncRequestManager::startup - Creating LibUSBApi
+[2025-05-01 17:20:02.952]: USBAsyncRequestManager::startup - Initialized USB API
+[2025-05-01 17:20:02.955]: DeviceManager::startup - Platform Hotplug API is ENABLED
+[2025-05-01 17:20:02.999]: bluetooth_get_host_address - Found a bluetooth radio
+[2025-05-01 17:20:03.0]: bluetooth_get_host_address - Retrieved radio info
+[2025-05-01 17:20:03.47]: PSMoveController::open - Opening PSMoveController(\\?\hid#{00001124-0000-1000-8000-00805f9b34fb}_vid&0002054c_pid&03d5&col01#8&217855aa&2&0000#{4d1e55b2-f16f-11cf-88cb-001111000030})
+[2025-05-01 17:20:03.49]: PSMoveController::open -   with serial_number: 000704a47a02
+[2025-05-01 17:20:03.132]: WorkerThread::start - Starting worker thread: PSMoveSensorProcessor
+[2025-05-01 17:20:03.134]: DeviceTypeManager::update_connected_devices - Device device_id 0 (PSMove) opened
+[2025-05-01 17:20:22.100]: ClientConnection::start - Starting client connection id 0
+[2025-05-01 17:20:22.101]: ClientConnection::send_connection_info - Sending connection id to client 0
+[2025-05-01 17:20:22.177]: ServerRequestHandler - Start controller(0) stream (pos=1,phys=0,raw_sens=0,cal_sens=1,trkr=0,roi=0)
+[2025-05-01 17:22:13.406]: ClientConnection::handle_tcp_read_request_header - Failed to read header on connection 0: Se ha forzado la interrupción de una conexión existente por el host remoto
+[2025-05-01 17:22:13.409]: ClientConnection::stop - Stopping client connection id 0
+[2025-05-01 17:22:13.410]: ServerNetworkManager::handle_udp_read_connection_id - Failed to receive UDP connection id: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
